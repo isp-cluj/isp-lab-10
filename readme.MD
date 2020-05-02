@@ -22,5 +22,6 @@ In this lab you will implement a simplified air traffic control (ATC) sistem whi
 - R6 - When aircraft has reached altitude 0 is considered landed;
 - R9 - User interaction is done trough a console based user interface (read commands from keyboard); 
 - R10 - Aircrafts are implemented as threads;
+- R11 - Aircraft will keep track of number of seconds spent in "Cruising" state and will display it after it landed;
 - [OPTIONAL] - Add a graphical user interface to let user ineract wit ATC system;
 
