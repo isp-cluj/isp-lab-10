@@ -26,7 +26,7 @@ In this lab you will implement a simplified air traffic control (ATC) sistem whi
 
 ## Implementation recommendations
 
-- User interaction is done trough a console based user interface (Example: user will enter commmand TAKEOFF {aircraftid} {altitude} or LAND {aircrfatid}); 
-- Aircrafts are implemented as threads;
-- After aircraft landed the thread will be finished;
-- Use wait()\notify() mechanism to implement mechanism for aircrfat to wait for ATC command; 
+- User interaction is done trough a console based user interface (Example: user will enter command TAKEOFF {aircraftid} {altitude} or LAND {aircrfatid}); 
+- Aircraft objects are implemented as threads;
+- After aircraft land the thread will be finished;
+- Use wait()\notify() mechanism to implement mechanism for aircraft to wait for ATC command; 
